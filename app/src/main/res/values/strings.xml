@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Indian Fitness</string>
+    <string name="for_men">These exercises are design by world Professional Fitness Trainer only for MALE</string>
+    <string name="for_women">These exercises are design by world Professional Fitness Trainer only for FEMALE</string>
+    <string name="tips_amp_tutorials"><![CDATA[Tips & Tutorials]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fit_amp_hit_india"><![CDATA[Fit & Hit India]]></string>
+</resources>

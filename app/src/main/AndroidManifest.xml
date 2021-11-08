@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nihalramtripathi.indian_fitness_nrt">
+
+    <uses-sdk tools:overrideLibrary="android.support.v17.leanback" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AaadiYogi">
+        <activity android:name="com.nihalramtripathi.indian_fitness_nrt.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nihalramtripathi.indian_fitness_nrt.TutorialsActivity" />
+        <activity android:name="com.nihalramtripathi.indian_fitness_nrt.FouthActivity" />
+        <activity android:name="com.nihalramtripathi.indian_fitness_nrt.ThirdActivity" />
+        <activity android:name="com.nihalramtripathi.indian_fitness_nrt.SecondActivity" />
+        <activity android:name="com.nihalramtripathi.indian_fitness_nrt.MainActivity">
+        </activity>
+
+
+    </application>
+
+</manifest>
